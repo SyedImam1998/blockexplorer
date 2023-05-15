@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+.GetTx{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.txInputField{
+  padding: 2%;
+  width: 50%;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.txDetails{
+  border: 1px solid black;
+  width: 50%;
+  /* height: max-content; */
+  border-radius: 20px;
+  text-align: left;
+  padding: 2%;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+
+
+}
+.titleBar{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
